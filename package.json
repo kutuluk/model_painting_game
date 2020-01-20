@@ -1,0 +1,29 @@
+{
+  "name": "duck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js",
+    "build:dev": "webpack --config webpack.config.dev.js",
+    "clean": "rimraf dist/*"
+  },
+  "author": "FFBarney",
+  "license": "",
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/plugin-transform-runtime": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/runtime-corejs2": "latest",
+    "babel-loader": "latest",
+    "file-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "rimraf": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {}
+}
